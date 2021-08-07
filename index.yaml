@@ -1,0 +1,210 @@
+apiVersion: v1
+entries:
+  glance:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-07T23:50:24.166409961Z"
+    description: OpenStack-Helm Glance
+    digest: bd1b6adf8e2ddff13b40c9319b4f4e95520d6a0718c4a52bbf22eb081ba8d7b0
+    home: https://docs.openstack.org/glance/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Glance/OpenStack_Project_Glance_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: glance
+    sources:
+    - https://opendev.org/openstack/glance
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/glance-0.2.6.tgz
+    version: 0.2.6
+  helm-toolkit:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-07T23:50:24.170759139Z"
+    description: OpenStack-Helm Helm-Toolkit
+    digest: e31d30afd30fbdab41ee7799e970d12995474aa7f3aa84a4e847663cb85740b5
+    home: https://docs.openstack.org/openstack-helm
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/OpenStack-Helm/OpenStack_Project_OpenStackHelm_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: helm-toolkit
+    sources:
+    - https://opendev.org/openstack/openstack-helm-infra
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/helm-toolkit-0.2.19.tgz
+    version: 0.2.19
+  horizon:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-07T23:50:24.173795529Z"
+    description: OpenStack-Helm Horizon
+    digest: 8c6352bff2929dbc8cced7b481cdc54ad233ec745ba02f58ddc4f535d2186760
+    home: https://docs.openstack.org/horizon/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Horizon/OpenStack_Project_Horizon_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: horizon
+    sources:
+    - https://opendev.org/openstack/horizon
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/horizon-0.2.6.tgz
+    version: 0.2.6
+  ingress:
+  - apiVersion: v1
+    appVersion: v0.42.0
+    created: "2021-08-07T23:50:24.176290688Z"
+    description: OpenStack-Helm Ingress Controller
+    digest: 1fe035348ece0f95c14e4af6c6a4e3226395a0ba4a4edb9b09dac17c969d1285
+    home: https://github.com/kubernetes/ingress
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: ingress
+    sources:
+    - https://github.com/kubernetes/ingress
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/ingress-0.2.3.tgz
+    version: 0.2.3
+  keystone:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-07T23:50:24.179148724Z"
+    description: OpenStack-Helm Keystone
+    digest: 5b3c45746be905bd05b92e5aa950b9b515777a34a6ed77a56d69b579b6671257
+    home: https://docs.openstack.org/keystone/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Keystone/OpenStack_Project_Keystone_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: keystone
+    sources:
+    - https://opendev.org/openstack/keystone
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/keystone-0.2.10.tgz
+    version: 0.2.10
+  libvirt:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-07T23:50:24.181973026Z"
+    description: OpenStack-Helm libvirt
+    digest: 4d11c3125fa227d9f26647440c9225246027e2088fc20fb185dde7483bf63d42
+    home: https://libvirt.org
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: libvirt
+    sources:
+    - https://libvirt.org/git/?p=libvirt.git;a=summary
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/libvirt-0.1.7.tgz
+    version: 0.1.7
+  mariadb:
+  - apiVersion: v1
+    appVersion: v10.2.31
+    created: "2021-08-07T23:50:24.185551393Z"
+    description: OpenStack-Helm MariaDB
+    digest: 27eae90a189d2caf29b7b64226438b36def4736a69686e18778662cc5c526e61
+    home: https://mariadb.com/kb/en/
+    icon: http://badges.mariadb.org/mariadb-badge-180x60.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: mariadb
+    sources:
+    - https://github.com/MariaDB/server
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/mariadb-0.2.5.tgz
+    version: 0.2.5
+  memcached:
+  - apiVersion: v1
+    appVersion: v1.5.5
+    created: "2021-08-07T23:50:24.188642576Z"
+    description: OpenStack-Helm Memcached
+    digest: 88c6520273b0dfb8698caf4da5a3b77a817446e4329914502b2e7feac11c89c0
+    home: https://github.com/memcached/memcached
+    name: memcached
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/memcached-0.1.4.tgz
+    version: 0.1.4
+  neutron:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-07T23:50:24.192252062Z"
+    description: OpenStack-Helm Neutron
+    digest: 384899a7f171f611c93a417e2e76157eeb08c127e584817df43953586020212b
+    home: https://docs.openstack.org/neutron/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Neutron/OpenStack_Project_Neutron_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: neutron
+    sources:
+    - https://opendev.org/openstack/neutron
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/neutron-0.2.8.tgz
+    version: 0.2.8
+  nova:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-07T23:50:24.196271053Z"
+    description: OpenStack-Helm Nova
+    digest: baabe0cd55b2613625de1bf61ab1d624729e85666b96043dd0a5a304a7e956b1
+    home: https://docs.openstack.org/nova/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Nova/OpenStack_Project_Nova_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: nova
+    sources:
+    - https://opendev.org/openstack/nova
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/nova-0.2.13.tgz
+    version: 0.2.13
+  openvswitch:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-07T23:50:24.198435891Z"
+    description: OpenStack-Helm OpenVSwitch
+    digest: 2c8c91611b5a46b1bc48341abdc3638c9346b1275e6b0a68f936a17ab1cc0f64
+    home: http://openvswitch.org
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Neutron/OpenStack_Project_Neutron_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: openvswitch
+    sources:
+    - https://github.com/openvswitch/ovs
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/openvswitch-0.1.5.tgz
+    version: 0.1.5
+  placement:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-07T23:50:24.200857101Z"
+    description: OpenStack-Helm Placement
+    digest: f572fd5fc368fb82110f6728aab43eb61189c2cf9d35e8584bff3c34e9a508e1
+    home: https://docs.openstack.org/placement/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Placement/OpenStack_Project_Placement_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: placement
+    sources:
+    - https://opendev.org/openstack/placement
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/placement-0.2.2.tgz
+    version: 0.2.2
+  rabbitmq:
+  - apiVersion: v1
+    appVersion: v3.7.26
+    created: "2021-08-07T23:50:24.203848532Z"
+    description: OpenStack-Helm RabbitMQ
+    digest: 7191ed43afc4f342d059c0f6702387ec9a21c0441be0b821f90294af77d9348a
+    home: https://github.com/rabbitmq/rabbitmq-server
+    name: rabbitmq
+    urls:
+    - https://parthyadav3105.github.io/helm-charts/rabbitmq-0.1.13.tgz
+    version: 0.1.13
+generated: "2021-08-07T23:50:24.163167691Z"
